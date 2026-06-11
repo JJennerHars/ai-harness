@@ -9,7 +9,7 @@ Do not commit any of the following:
 - API tokens, OAuth refresh/access tokens, passwords, passphrases, private SSH/GPG keys, cookies, session IDs, or bearer tokens.
 - `.env`, `auth.json`, `state.db`, session transcripts, logs, request dumps, or local cache directories.
 - Personal email addresses, phone numbers, mailing addresses, account IDs, private usernames, or private organization/customer names.
-- Personal Obsidian/vault notes or any context-engine content about Josh, relationships, finances, work details, private projects, or messages.
+- Personal Obsidian/vault notes or any context-engine content about a person, relationships, finances, work details, private projects, or messages.
 - Unreviewed copies of local agent config files.
 - MCP configs with real `env`, `headers`, `authorization`, URLs with credentials, database URLs, or sensitive local paths.
 

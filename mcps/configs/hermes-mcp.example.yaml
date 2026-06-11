@@ -1,0 +1,23 @@
+# Hermes MCP server examples. Copy selected entries into your local Hermes config and fill env vars locally.
+# Never commit real env var values, bearer tokens, vault paths, account IDs, or private filesystem paths.
+
+mcp_servers:
+  oil:
+    command: npx
+    args: ["-y", "@jinlee794/obsidian-intelligence-layer", "mcp"]
+    env:
+      OBSIDIAN_VAULT_PATH: "${OBSIDIAN_VAULT_PATH}"
+    timeout: 120
+    connect_timeout: 60
+    enabled: true
+
+  github:
+    url: https://api.githubcopilot.com/mcp/
+    headers:
+      Authorization: "Bearer ${GITHUB_TOKEN}"
+    timeout: 120
+    connect_timeout: 60
+    enabled: true
+    tools:
+      prompts: false
+      resources: false
