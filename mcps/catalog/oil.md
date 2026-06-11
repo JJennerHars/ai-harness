@@ -2,6 +2,14 @@
 
 Purpose: expose a local Obsidian vault or Markdown knowledge base to Hermes through token-efficient search, metadata reads, section reads, and controlled writes.
 
+Credit / upstream:
+
+- Package: `@jinlee794/obsidian-intelligence-layer`
+- Repository: https://github.com/JinLee794/Obsidian-Intelligence-Layer
+- License: MIT, per npm package metadata
+
+This repo only includes a sanitized configuration template and notes for using the upstream MCP server; it does not vendor or modify the upstream source code.
+
 Upstream package: `@jinlee794/obsidian-intelligence-layer`
 
 Install/run command:

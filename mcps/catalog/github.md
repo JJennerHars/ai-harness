@@ -2,6 +2,14 @@
 
 Purpose: expose GitHub repository, issue, pull request, and file operations to Hermes through GitHub's remote MCP endpoint.
 
+Credit / upstream:
+
+- Official GitHub MCP server repository: https://github.com/github/github-mcp-server
+- GitHub Docs: https://docs.github.com/
+- License: MIT for `github/github-mcp-server`; GitHub service use is subject to GitHub's terms
+
+This repo only includes a sanitized configuration template and setup notes for GitHub's MCP endpoint; it does not vendor or modify GitHub MCP source code.
+
 Endpoint:
 
 ```text

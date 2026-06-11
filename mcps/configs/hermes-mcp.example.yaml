@@ -1,5 +1,9 @@
 # Hermes MCP server examples. Copy selected entries into your local Hermes config and fill env vars locally.
 # Never commit real env var values, bearer tokens, vault paths, account IDs, or private filesystem paths.
+# Credits:
+# - OIL MCP: https://github.com/JinLee794/Obsidian-Intelligence-Layer
+# - GitHub MCP: https://github.com/github/github-mcp-server
+# - Hermes MCP docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
 
 mcp_servers:
   oil:

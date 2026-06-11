@@ -64,8 +64,10 @@ skills/<skill-name>/
 4. **Add explicit privacy documentation.** Include a README statement that the repo is public-safe and a SECURITY.md with blocked content.
 5. **Add defensive ignore rules.** Block `.env`, auth/token stores, session/log/cache directories, SQLite state, private keys, credential files, and local runtime artifacts.
 6. **Use templates/placeholders, not live values.** MCP configs should use `.example.yaml`/`.example.json` and placeholders like `${EXAMPLE_API_KEY}`. Document required env var names, never values.
-7. **Add a local scanner.** Include a simple `scripts/scan-for-secrets.sh` or equivalent; run it before committing and before publishing.
-8. **Manual diff review remains mandatory.** Secret scanners are a backstop, not proof of safety. Inspect `git status`, staged files, and `git diff --cached` before pushing.
+7. **Export custom harness content conservatively.** For local skills, compare user skills against bundled/upstream copies and only export `custom-only` or `modified` candidates. Prefer reviewed `SKILL.md` files first; add supporting `references/`, `scripts/`, and `templates/` only after separately checking each file. See `references/sanitized-harness-export.md` for the detailed workflow and review grep patterns.
+8. **Credit upstream projects.** Anything not authored by the repo owner — MCP servers, CLIs, copied/adapted skills, setup scripts, or services — must include a link to the original repository or official docs, plus license/terms when readily available. Make clear whether the repo vendors code or only documents/configures the upstream tool.
+9. **Add a local scanner.** Include a simple `scripts/scan-for-secrets.sh` or equivalent; run it before committing and before publishing.
+10. **Manual diff review remains mandatory.** Secret scanners are a backstop, not proof of safety. Inspect `git status`, staged files, and `git diff --cached` before pushing.
 
 ## Public-safety rules
 

@@ -18,6 +18,10 @@ This repository is intended to be safe to make public. It must not contain perso
 └── docs/templates/         # Templates for adding new skills/MCP definitions
 ```
 
+## Credits and upstream attribution
+
+This repo contains public-safe setup files plus sanitized templates for third-party tools. Anything not authored here should link back to its upstream project or official documentation. See [`NOTICE.md`](NOTICE.md) for current credits, including Obsidian Intelligence Layer MCP, GitHub MCP, MCP itself, and Hermes Agent.
+
 ## Privacy rules
 
 Never commit:

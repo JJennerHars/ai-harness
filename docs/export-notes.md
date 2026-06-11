@@ -7,6 +7,7 @@ Included:
 - Modified/custom public-safe skills under `skills/`.
 - Sanitized MCP templates for Obsidian Intelligence Layer and GitHub MCP.
 - Catalog notes documenting required environment variable names only.
+- Attribution links in `NOTICE.md` and the relevant MCP catalog/config files for third-party tools such as Obsidian Intelligence Layer MCP, GitHub MCP, MCP, and Hermes Agent.
 
 Deliberately excluded:
 

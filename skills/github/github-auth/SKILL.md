@@ -192,7 +192,7 @@ Use this when the user wants Hermes to manage GitHub repositories through the Gi
 
 ### Prefer GitHub's official MCP server
 
-The current official server is `github/github-mcp-server`. Prefer the remote GitHub MCP endpoint in Hermes:
+The current official server is `github/github-mcp-server` (upstream: https://github.com/github/github-mcp-server). Prefer the remote GitHub MCP endpoint in Hermes:
 
 ```yaml
 mcp_servers:

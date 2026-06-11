@@ -62,6 +62,6 @@ Obsidian links notes with `[[Note Name]]` syntax. When creating notes, use these
 
 ## MCP access via OIL
 
-When the user asks to connect Hermes or another MCP-capable agent to an Obsidian vault, consider the Obsidian Intelligence Layer (OIL) MCP server. It provides token-efficient vault search, section reads, metadata reads, and mtime-safe writes directly against the vault folder. See `references/oil-mcp-hermes.md` for the Hermes setup pattern, including the required `mcp` subcommand and vault-path discovery notes.
+When the user asks to connect Hermes or another MCP-capable agent to an Obsidian vault, consider the Obsidian Intelligence Layer (OIL) MCP server (upstream: https://github.com/JinLee794/Obsidian-Intelligence-Layer). It provides token-efficient vault search, section reads, metadata reads, and mtime-safe writes directly against the vault folder. See `references/oil-mcp-hermes.md` for the Hermes setup pattern, including the required `mcp` subcommand and vault-path discovery notes.
 
 

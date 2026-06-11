@@ -52,7 +52,7 @@ The context engine is not just a note archive. It is the source of truth for gro
 
 ### 1. OIL MCP first
 
-OIL is the preferred interface for the context engine.
+OIL is the preferred interface for the context engine. OIL is a third-party MCP server; credit/upstream: https://github.com/JinLee794/Obsidian-Intelligence-Layer.
 
 Use OIL for:
 
